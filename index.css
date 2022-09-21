@@ -10,22 +10,23 @@ footer>a, footer>a:visited {
 
 body {
     background-image:
-url(renato-ramos-puma-7F3ve_FFBRQ-unsplash.jpg);
-background-repeat: no-repeat;
-background-position: center;
+    url(renato-ramos-puma-7F3ve_FFBRQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Used Julian's code to learn how to make a navbar without the use of a library*/
 .navbar {
-    background-color: #dd2565;
+    background-color: #fbc201;
     overflow: hidden;
+    margin-right: 27cm;
 }
 
 .navbar a {
     float: left;
-    color: #d27607;
+    color: black;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     padding: 14px;
 }
 
