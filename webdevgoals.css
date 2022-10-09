@@ -35,6 +35,7 @@ body {
 .navbar a:hover {
     background-color: #8eadb2;
     color: black;
+    text-shadow: 4px 4px 4px #aaa;
 }
   
 /* Add a color to the active/current link */

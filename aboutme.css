@@ -21,6 +21,7 @@ body {
     background-color: #6696a0;
     overflow: hidden;
     margin-right: 27.6cm;
+    opacity: 50%;
 }
 
 .navbar a {
@@ -33,8 +34,9 @@ body {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: #8eadb2;
+    background-color: #276570;
     color: black;
+    text-shadow: 7px 7px 7px #aaa;
 }
   
 /* Add a color to the active/current link */
