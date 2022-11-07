@@ -10,18 +10,16 @@ footer>a, footer>a:visited {
 
 body {
     background-image:
-    url(hy-art-HniZQ3OG22s-unsplash.jpg);
+    url(renato-ramos-puma-7F3ve_FFBRQ-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
 /* Used Julian's code to learn how to make a navbar without the use of a library*/
 .navbar {
-    background-color: #6696a0;
+    background-color: #fbc201;
     overflow: hidden;
-    margin-right: 27.6cm;
-    opacity: 50%;
+    margin-right: 60%;
 }
 
 .navbar a {
@@ -34,15 +32,15 @@ body {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: #276570;
-    color: black;
-    text-shadow: 7px 7px 7px #aaa;
+    background-color: #d27607;
+    color: #dd2565;
+    text-shadow: 4px 4px 4px #aaa;
 }
   
 /* Add a color to the active/current link */
 .navbar a.active {
-    background-color: #276570;
-    color: black;
+    background-color: #b312a0;
+    color: #1a0756;
 }
 
 .left {
