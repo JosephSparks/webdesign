@@ -1,0 +1,17 @@
+div {
+    font-size: 15px;
+    color: red;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    color: red;
+}
+
+header {
+    background-image: url(/Users/992156/Documents/GitHub/website/JS/drpepper.webp);
+    font-family: 'Luckiest Guy', cursive;
+}
+
