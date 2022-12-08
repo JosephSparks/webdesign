@@ -1,7 +1,8 @@
 div {
-    font-size: 15px;
+    font-size: 18px;
     color: red;
     font-family: 'Luckiest Guy', cursive;
+    text-align: center;
 }
 
 h1 {
@@ -11,7 +12,6 @@ h1 {
 }
 
 header {
-    background-image: url(/Users/992156/Documents/GitHub/website/JS/drpepper.webp);
     font-family: 'Luckiest Guy', cursive;
 }
 

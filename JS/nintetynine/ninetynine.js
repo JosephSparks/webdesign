@@ -12,12 +12,12 @@ while (cans > 0) {
 
     if (cans > 1) {
         lyrics = lyrics + (cans-1) + " cans of "
-        + drink + " on the wall <br><br>";
+        + drink + " inside the offices of Saul Goodman <br><br>";
     }
 
     else {
         lyrics = lyrics + "No more cans of "
-        + drink + " on the wall <br>";
+        + drink + " inside the offices of Saul Goodman <br>";
     }
 
     cans = cans - 1;
