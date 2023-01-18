@@ -1,4 +1,4 @@
-# Web Design!
+# website
+This is my website repo for DE Web Design by Jeff Elkner
 
-This GitHub repository is for my DE Web Design homepage.
-It consists of my personal website and my JavaScript assignments.
+I already connected my editor and GitHub Desktop so I can get to work
