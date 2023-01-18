@@ -1,0 +1,15 @@
+body{
+    background-color: turquoise;
+    font-family: 'Luckiest Guy', cursive;
+}
+h1 {
+    font-size: 3.5vw;
+    color: slategray;
+}
+main {
+    text-align: center;
+    font-size: 3vw;
+}
+p {
+    color: red;
+}
