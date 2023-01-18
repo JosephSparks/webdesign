@@ -5,7 +5,7 @@ h1, footer {
 /* I still have to make sure my footers appear at the bottom, but as I add stuff they'll move down so no worries*/
 footer>a, footer>a:visited {
     text-decoration: none;
-    color: green;
+    color: black;
 }
 
 body {
