@@ -1,0 +1,33 @@
+body {
+    background-color: beige;
+}
+h1, h2 {
+    font-size: 3vw;
+    color: slategray;
+  }
+main {
+    text-align: center;
+    font-size: 2.5vw;
+  }
+body, p {
+    color: salmon;
+    font-family: sans-serif;
+  }
+
+#q29 {
+    text-align: center;
+}
+
+footer, footer>a:visited {
+    margin-top: 34%;
+    color: blue;
+}
+
+ul#order, li{
+    display: inline;
+    color: salmon;
+}
+#q3 {
+    text-align: center;
+    display: block;
+}
