@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="index.css">
+<meta charset="utf-8">
+<title>Homepage</title>
+
+<!--Validation Links-->
+<script>
+    function init() {
+        var loc = window.location.href;
+        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+</script>
+</head>
+
+<body>
+    <h1>Joseph Sparks' Webpage</h1>
+    <section>
+        <p class="intro">
+        My name is Joseph Sparks, and welcome to my personal website! I made this website to introduce myself, some of my interests,
+        and demonstrate some of the things I've been working on.
+        </p>
+    </section>
+    <article id="about">
+        <h2>
+            About Me:
+        </h2>
+        <p>
+            I am currently a junior at Arlington Tech and take dual-enrolled classes through NOVA for Computer Science. Some of my interests include
+            basketball, reading historical non-fiction, singing in a choir, learning Mandarin Chinese, and programming. I am currently on the C.S. Associates pathway
+            through NOVA, so I will graduate high school with an Associates degree in Computer Science.
+
+            While computer science is a big passion of mine, I hope to go to university to study aeronautical engineering. I enjoy solving problems, which is definitely part
+            of why I love engineering and software design. As aeronautics modernizes more and more, I believe that my software design skills will be able to help me in my career path, as well
+            as being constructive hobby.
+
+            My extracurriculars outside of school conist of mixed-martial arts, performing with the National Children's Chorus, Boy Scouts, track and field, National Honor Society volunteering,
+            and others. I am also a Jack Kent Cooke Young Scholar and a member of the support group for young men of color at my school.
+        </p>
+    </article>
+    <article id="goals">
+        <h2>
+            My Web Development Goals:
+        </h2>
+        <ul>
+<li>Improve my general knowledge of HTML and CSS. I'm fortunate enough to have prior experience, but I hope to be able to build upon it.</li>
+<li>Learn useful JavaScript. I know some extremely basic functionalty of JavaScript, but it's quite limited. If I can improve on this, as well as the general use of HTML and CSS, I can elevate my websites.</li>
+<li>Lastly, I hope to get a better eye for design. While my HTMl knowledge is limited, I'm also not a very creative person, so if I get the chance to practice designing and learning what looks better, I will be able to make my websites look more recent than 2008.</li>
+        </ul>  
+    </article>
+</body>

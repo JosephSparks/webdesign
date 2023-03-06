@@ -1,4 +1,4 @@
 # website
-This is my website repo for DE Web Design by Jeff Elkner
+Mark 1 Website:
 
-I already connected my editor and GitHub Desktop so I can get to work
+Instead of opting for a vertical scroll, I've been using a navigation bar with links to other homepages. While this isn't too hard to set up, I think I'll try to configure a vertical scroll version using the IDs that Sheel showed me.
