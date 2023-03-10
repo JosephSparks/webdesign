@@ -21,13 +21,27 @@ body, p {
 footer, footer>a:visited {
     margin-top: 34%;
     color: blue;
+    text-align: center;
 }
 
-ul#order, li{
+ul#order {
     display: inline;
     color: salmon;
 }
+
 #q3 {
     text-align: center;
     display: block;
+}
+
+#selector {
+    color: black;
+}
+
+#property {
+    color: red;
+}
+
+#value {
+    color: brown;
 }
