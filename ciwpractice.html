@@ -23,9 +23,10 @@
   <li style="display: inline;"><a href="#q29">Question 29 (Test A)</a></li>
   <li style="display: inline;"><a href="#q14">Question 14 (Test B)</a></li>
   <li style="display: inline;"><a href="#q55">Question 55 (Test B)</a></li>
-  <li style="display: inline;"><a href="q1">Question 1 (Test B)</a></li>
+  <li style="display: inline;"><a href="#q1">Question 1 (Test B)</a></li>
 </ul>
 </header>
+
 <main>
 <section>
 <h2 id="#q29">Question 29 (Test A)</h2>
@@ -115,6 +116,14 @@ if the browser is non-HTML 5 compliant.</p>
 </ul>
 <br>
 <br>
+
+<form>
+  <label for="fname">First Name: </label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="email">Email Address: </label><br>
+  <input type="email" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$">
+  <input type="submit" value="Submit">
+</form>
 
 </section>
 </main>
